@@ -30,7 +30,7 @@ If you want to look for more violations yourself -  you'll want to verify that t
 ## BUT, the purpose of this repository is to prove Preston’s claims of an entirely re-written codebase are factually incorrect. 
 
 
-| First Header  | Second Header | Third Header |
+| Raceflight Code | Betaflight Code | Comments |
 | ------------- | ------------- | ------------ |
 | https://github.com/rs2k/RaceFlight-One/blob/6b541c85eaa3d391f1e26950a498e9bad9dddc9f/src/flight_controller/src/filter.c#L504 (Lines 504-511) | https://github.com/betaflight/betaflight/blob/0e827b331d05e5cc12304f6278a3ded26c2a2f20/src/main/common/filter.c#L99 (Lines 99-106) | The comments are exactly the same. “// precompute the coefficients” and “// zero initial samples”The math is and layout is exactly the same, except with different variable names.
 https://github.com/rs2k/RaceFlight-One/blob/6b541c85eaa3d391f1e26950a498e9bad9dddc9f/src/flight_controller/src/filter.c#L527 (Lines 527-533) | https://github.com/betaflight/betaflight/blob/0e827b331d05e5cc12304f6278a3ded26c2a2f20/src/main/common/filter.c#L40 (Lines 40-44) | Exact same layout and spacing of the math. The same variable names. Only difference is that the function inputs are switched.
