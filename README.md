@@ -10,6 +10,9 @@ find . -type f -print0 | xargs -0 mv -t ~/Downloads/GPL\ Raceflight/betaflight_f
 
 ./moss.pl -d betaflight_files/*.c betaflight_files/*.h raceflight_files/*.c raceflight_files/*.h
 ```
+
+# https://docs.google.com/document/d/1QK1PC5cYST8B6NynXUeIji1pmg9fQmY0WqoSsv4gnFo/edit
+
 Results here: (This will expire in 14 days, I will publish the folders that I submitted)
 http://moss.stanford.edu/results/587590701/
 
