@@ -10,8 +10,11 @@ find . -type f -print0 | xargs -0 mv -t ~/Downloads/GPL\ Raceflight/betaflight_f
 
 ./moss.pl -d betaflight_files/*.c betaflight_files/*.h raceflight_files/*.c raceflight_files/*.h
 ```
+-------
 
-# https://docs.google.com/document/d/1QK1PC5cYST8B6NynXUeIji1pmg9fQmY0WqoSsv4gnFo/edit
+## https://docs.google.com/document/d/1QK1PC5cYST8B6NynXUeIji1pmg9fQmY0WqoSsv4gnFo/edit
+
+--------
 
 Results here: (This will expire in 14 days, I will publish the folders that I submitted)
 http://moss.stanford.edu/results/587590701/
@@ -20,6 +23,8 @@ https://theory.stanford.edu/~aiken/moss/
 
 If you want to look for more violations yourself -  you'll want to verify that they are not shared pieces of code, like device drivers, math libraries etc. Take this all with a grain of salt, and assume that I screwed something up. But I'm pretty certain we can find GPL violation proof here.
 
+---------
+ 
 **While a large majority of the codebase has been re-written or refactored, I think the combination of these finds at least highly suggest the use of GPL Betaflight code within the closed-source Raceflight releases. I have no qualms against Kalyan, and I think it’s incredibly impressive to write it nearly from scratch. I also have no interest in legal action, since there is such a miniscule overlap.**
 
 ## BUT, the purpose of this repository is to prove Preston’s claims of an entirely re-written codebase are factually incorrect. 
